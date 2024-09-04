@@ -1,6 +1,7 @@
 #!/bin/bash
 set -eo pipefail
 
+
 BIN_DIR=$(dirname $(readlink -f "$0"))
 PROJECT_HOME=$(cd ${BIN_DIR}/..;pwd)
 
